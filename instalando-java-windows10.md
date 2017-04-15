@@ -1,4 +1,4 @@
-# Instalando Java no Windows 10 em 4 passos
+# Instalando e configurando o Java no Windows 10 em 4 passos
 
 Fala galera, blz? Hoje vou falar de uma coisa simples e básica, mas que no começo pode deixar muitos iniciantes com dúvidas: como instalar e configurar o Java em ambiente Windows. Para esse tutorial estarei usando o Windows 10 e Java em sua última versão (version 8 Update 121).
 
