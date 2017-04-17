@@ -14,7 +14,7 @@ ou
 
 * http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html (última versão)
 
-* Clique em Accept License Agreement (Aceitar o acordo da Licensa) para liberar o download.
+* Clique em Accept License Agreement (Aceitar o acordo da Licença) para liberar o download.
   
 * Se seu sistema operacional for de 64 bits
 escolha o pacote jdk-7u80-linux-x64.tar.gz
