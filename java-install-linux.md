@@ -4,15 +4,15 @@
 
 **Versão: 1.7**
 
-http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html#jdk-7u80-oth-JPR (Requer login) (64 ou 32) bits
+* http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html#jdk-7u80-oth-JPR (Requer login) (64 ou 32) bits
 ou
-https://www.dropbox.com/s/2cs9k4cfhag5gm0/jdk-7u80-linux-x64.tar.gz?dl=0 (download direto) (64 bits)
+* https://www.dropbox.com/s/2cs9k4cfhag5gm0/jdk-7u80-linux-x64.tar.gz?dl=0 (download direto) (64 bits)
 
-https://www.dropbox.com/s/qryvdq8uwfh8idq/jdk-7u80-linux-i586.tar.gz?dl=0 (download direto) (32 bits)
+* https://www.dropbox.com/s/qryvdq8uwfh8idq/jdk-7u80-linux-i586.tar.gz?dl=0 (download direto) (32 bits)
 
 **Versão: 1.8**
 
-http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html (última versão)
+* http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html (última versão)
 
 * Clique em Accept License Agreement (Aceitar o acordo da Licensa) para liberar o download.
   
@@ -73,7 +73,9 @@ There are 4 programs which provide 'java'.
   Selection    Command
 -----------------------------------------------
 *+ 1         /usr/lib/jvm/jre-1.6.0-openjdk/bin/java
+
    2         /usr/java/jdk1.7.0_55/jre/bin/java
+   
    3         /usr/java/jdk1.7.0_80/jre/bin/java
 
 Enter to keep the current selection[+], or type selection number: 3
@@ -81,10 +83,12 @@ Enter to keep the current selection[+], or type selection number: 3
 * Repita o passo anterior para com os seguintes comandos:
 
 **-- obrigatório --**
+
 ```[user@host /home/user/Downloads]$ alternatives --config javac```
 ```[user@host /home/user/Downloads]$ alternatives --config jar```
 
 **--opcional --**
+
 ```[user@host /home/user/Downloads]$ alternatives --config javaws```
 ```[user@host /home/user/Downloads]$ alternatives --config libjavaplugin.so (caso 32 bits)```
 ```[user@host /home/user/Downloads]$ alternatives --config libjavaplugin.so.x86_64 (caso 64 bits)```
@@ -99,6 +103,7 @@ Enter to keep the current selection[+], or type selection number: 3
 ```java version "1.7.0_80"```
 
 ```[user@host /home/user/Downloads]$ javac -version```
+
 ```[user@host /home/user/Downloads]$ jar -version```
 
 ## 6º Definição da Variável JAVA_HOME 
@@ -132,5 +137,7 @@ Enter to keep the current selection[+], or type selection number: 3
 * Caso queira que todos os usuários carregem as mesma especificações, faça as alterações no /etc/profile (root)
 
 Fontes:
+
 David Ghedini - http://www.davidghedini.com/pg/entry/install_tomcat_7_on_centos
+
 JR - https://www.if-not-true-then-false.com/2014/install-oracle-java-8-on-fedora-centos-rhel/
