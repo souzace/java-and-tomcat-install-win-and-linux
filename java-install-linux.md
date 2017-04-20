@@ -40,31 +40,31 @@ Vá até a pasta aonde você baixou o pacote .tar.gz e execute os comandos abaix
 **-- obrigatório --**
 
 * ### java
-```[user@host /home/user/Downloads]$ alternatives --install /usr/bin/java java /usr/java/jdk1.7.0_80/jre/bin/java 200000```
+```[user@host /home/user/Downloads]$ sudo alternatives --install /usr/bin/java java /usr/java/jdk1.7.0_80/jre/bin/java 200000```
 
 
 * ### javac
-```[user@host /home/user/Downloads]$ alternatives --install /usr/bin/javac javac /usr/java/jdk1.7.0_80/jre/bin/javac 200000```
+```[user@host /home/user/Downloads]$ sudo alternatives --install /usr/bin/javac javac /usr/java/jdk1.7.0_80/jre/bin/javac 200000```
 
 
 * ### jar
-```[user@host /home/user/Downloads]$ alternatives --install /usr/bin/jar jar /usr/java/jdk1.7.0_80/jre/bin/jar 200000```
+```[user@host /home/user/Downloads]$ sudo alternatives --install /usr/bin/jar jar /usr/java/jdk1.7.0_80/jre/bin/jar 200000```
 
 -- opcional --
 
 * ### javaws
-```[user@host /home/user/Downloads]$ alternatives --install /usr/bin/javaws javaws /usr/java/jdk1.7.0_80/jre/bin/javaws 200000```
+```[user@host /home/user/Downloads]$ sudo alternatives --install /usr/bin/javaws javaws /usr/java/jdk1.7.0_80/jre/bin/javaws 200000```
 
 * ### Plugin Browser (Mozilla Firefox) 32-bits
-```[user@host /home/user/Downloads]$ alternatives --install /usr/lib/mozilla/plugins/libjavaplugin.so libjavaplugin.so /usr/java/jdk1.7.0_80/jre/lib/i386/libnpjp2.so 200000```
+```[user@host /home/user/Downloads]$ sudo alternatives --install /usr/lib/mozilla/plugins/libjavaplugin.so libjavaplugin.so /usr/java/jdk1.7.0_80/jre/lib/i386/libnpjp2.so 200000```
 
 * ### Plugin Browser (Mozilla Firefox) 64-bits
-```[user@host /home/user/Downloads]$ alternatives --install /usr/lib/mozilla/plugins/libjavaplugin.so libjavaplugin.so.x86_64 /usr/java/jdk1.7.0_80/jre/lib/amd64/libnpjp2.so 200000```
+```[user@host /home/user/Downloads]$ sudo alternatives --install /usr/lib/mozilla/plugins/libjavaplugin.so libjavaplugin.so.x86_64 /usr/java/jdk1.7.0_80/jre/lib/amd64/libnpjp2.so 200000```
 
 
 ## 4º Definindo a versão do java a ser utilizada (em caso de mais de uma versão instalada)
 
-```[user@host /home/user/Downloads]$ alternatives --config java```
+```[user@host /home/user/Downloads]$ sudo alternatives --config java```
 
 * As informações do menu de configuração vão variar em cada caso, selecione com a tecla + a linha que contenha o caminho para jdk1.7.0_80:
 
@@ -84,14 +84,14 @@ Enter to keep the current selection[+], or type selection number: 3
 
 **-- obrigatório --**
 
-```[user@host /home/user/Downloads]$ alternatives --config javac```
-```[user@host /home/user/Downloads]$ alternatives --config jar```
+```[user@host /home/user/Downloads]$ sudo alternatives --config javac```
+```[user@host /home/user/Downloads]$ sudo alternatives --config jar```
 
 **--opcional --**
 
-```[user@host /home/user/Downloads]$ alternatives --config javaws```
-```[user@host /home/user/Downloads]$ alternatives --config libjavaplugin.so (caso 32 bits)```
-```[user@host /home/user/Downloads]$ alternatives --config libjavaplugin.so.x86_64 (caso 64 bits)```
+```[user@host /home/user/Downloads]$ sudo alternatives --config javaws```
+```[user@host /home/user/Downloads]$ sudo alternatives --config libjavaplugin.so (caso 32 bits)```
+```[user@host /home/user/Downloads]$ sudo alternatives --config libjavaplugin.so.x86_64 (caso 64 bits)```
 
 ## 5º Testando a versão escolhida
 
