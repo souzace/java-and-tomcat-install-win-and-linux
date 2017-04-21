@@ -120,6 +120,9 @@ http://localhost:8080/
 
 
 
+Fonte:
 
+David Ghedini:
+http://www.davidghedini.com/pg/entry/install_tomcat_7_on_centos
 
 
