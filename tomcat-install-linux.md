@@ -29,15 +29,15 @@ Usaremos a versão 5.5.36 como descrito no link:
 
 * O script a seguir, contém instruções para iniciar, reinicializar ou desligar o serviço do tomcat, de acordo como o comando for chamado, adicione as instruções ao arquivo tomcat da pasta etc/init.d:
 
-#!/bin/bash
-# description: Tomcat Start Stop Restart
-# processname: tomcat
-# chkconfig: 234 20 80
-JAVA_HOME=/usr/java/jdk1.7.0_80
-export JAVA_HOME
-PATH=$JAVA_HOME/bin:$PATH
-export PATH
-CATALINA_HOME=/usr/share/apache-tomcat-5.5.36
+\#!/bin/bash<br>
+\# description: Tomcat Start Stop Restart<br>
+\# processname: tomcat<br>
+\# chkconfig: 234 20 80<br>
+JAVA_HOME=/usr/java/jdk1.7.0_80<br>
+export JAVA_HOME<br>
+PATH=$JAVA_HOME/bin:$PATH<br>
+export PATH<br>
+CATALINA_HOME=/usr/share/apache-tomcat-5.5.36<br>
 
 case $1 in
 start)
