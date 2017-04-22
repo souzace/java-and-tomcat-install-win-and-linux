@@ -66,52 +66,52 @@ Vá até a pasta aonde você baixou o pacote .tar.gz e execute os comandos abaix
 
 * As informações do menu de configuração vão variar em cada caso, selecione com a tecla + a linha que contenha o caminho para jdk1.7.0_80:
 
-There are 4 programs which provide 'java'.
+There are 4 programs which provide 'java'.<br>
 
-  Selection    Command
------------------------------------------------
-*+ 1         /usr/lib/jvm/jre-1.6.0-openjdk/bin/java
+  Selection    Command<br>
+-----------------------------------------------<br>
+\*+ 1         /usr/lib/jvm/jre-1.6.0-openjdk/bin/java<br>
+\
+\   2         /usr/java/jdk1.7.0_55/jre/bin/java<br>
+\   
+\   3         /usr/java/jdk1.7.0_80/jre/bin/java<br>
 
-   2         /usr/java/jdk1.7.0_55/jre/bin/java
-   
-   3         /usr/java/jdk1.7.0_80/jre/bin/java
-
-Enter to keep the current selection[+], or type selection number: 3
+Enter to keep the current selection[+], or type selection number: 3<br>
 
 * Repita o passo anterior para com os seguintes comandos:
 
 **-- obrigatório --**
 
-```[user@host /home/user/Downloads]$ sudo alternatives --config javac```
-```[user@host /home/user/Downloads]$ sudo alternatives --config jar```
+```[user@host /home/user/Downloads]$ sudo alternatives --config javac```<br>
+```[user@host /home/user/Downloads]$ sudo alternatives --config jar```<br>
 
 **--opcional --**
 
-```[user@host /home/user/Downloads]$ sudo alternatives --config javaws```
-```[user@host /home/user/Downloads]$ sudo alternatives --config libjavaplugin.so (caso 32 bits)```
-```[user@host /home/user/Downloads]$ sudo alternatives --config libjavaplugin.so.x86_64 (caso 64 bits)```
+```[user@host /home/user/Downloads]$ sudo alternatives --config javaws```<br>
+```[user@host /home/user/Downloads]$ sudo alternatives --config libjavaplugin.so (caso 32 bits)```<br>
+```[user@host /home/user/Downloads]$ sudo alternatives --config libjavaplugin.so.x86_64 (caso 64 bits)```<br>
 
 ## 5º Testando a versão escolhida
 
-* Digite o comando abaixo e veja se a saída estar de acordo com a versão definida no passo anterior:
+* Digite o comando abaixo e veja se a saída estar de acordo com a versão definida no passo anterior:<br>
 
 ```[user@host /home/user/Downloads]$ java -version```
 
 * Verifique se a saída é semelhante a esta:
-```java version "1.7.0_80"```
+```java version "1.7.0_80"```<br>
 
-```[user@host /home/user/Downloads]$ javac -version```
+```[user@host /home/user/Downloads]$ javac -version```<br>
 
-```[user@host /home/user/Downloads]$ jar -version```
+```[user@host /home/user/Downloads]$ jar -version```<br>
 
 ## 6º Definição da Variável JAVA_HOME 
 
 * Caso você deseje que a variável esteja definida apenas para a sessão atual (ao reiniciar será perdido) digite:
 
-```[user@host /home/user/Downloads]$ JAVA_HOME=/usr/java/jdk1.7.0_80```
-```[user@host /home/user/Downloads]$ export JAVA_HOME```
-```[user@host /home/user/Downloads]$ PATH=$JAVA_HOME=/bin:$PATH```
-```[user@host /home/user/Downloads]$ export PATH```
+```[user@host /home/user/Downloads]$ JAVA_HOME=/usr/java/jdk1.7.0_80```<br>
+```[user@host /home/user/Downloads]$ export JAVA_HOME```<br>
+```[user@host /home/user/Downloads]$ PATH=$JAVA_HOME=/bin:$PATH```<br>
+```[user@host /home/user/Downloads]$ export PATH```<br>
 
 * Caso você deseje que a configuração carregue para o usuário sempre que iniciar o sistema vá para a pasta home do usuário
 
@@ -123,19 +123,22 @@ Enter to keep the current selection[+], or type selection number: 3
 
 * Insira abaixo dessa linha (User specific environment and startup programs) a seguinte especificação:
 
-```JAVA_HOME=/usr/java/jdk1.7.0_80```
-```export JAVA_HOME```
+```JAVA_HOME=/usr/java/jdk1.7.0_80```<br>
+```export JAVA_HOME```<br>
 
-* Modifique a linha do PATH de ```PATH=$PATH:$HOME/.local/bin:$HOME/bin``` para ```PATH=$JAVA_HOME/bin:$PATH:$HOME/.local/bin:$HOME/bin```
+* Modifique a linha do PATH de 
+```PATH=$PATH:$HOME/.local/bin:$HOME/bin```<br>
+para <br>
+```PATH=$JAVA_HOME/bin:$PATH:$HOME/.local/bin:$HOME/bin```<br>
 
 * Salve as alterações e feche o arquivo .bash_profile, recarrege as alteraçõesdo bash_profile
 
-```[user@host /home/user]$ source .bash_profile```
+```[user@host /home/user]$ source .bash_profile```<br>
 
 * Caso queira que todos os usuários carregem as mesma especificações, faça as alterações no /etc/profile (root)
 
-Fontes:
+Fontes:<br>
 
-David Ghedini - http://www.davidghedini.com/pg/entry/install_tomcat_7_on_centos
+David Ghedini - http://www.davidghedini.com/pg/entry/install_tomcat_7_on_centos<br>
 
-JR - https://www.if-not-true-then-false.com/2014/install-oracle-java-8-on-fedora-centos-rhel/
+JR - https://www.if-not-true-then-false.com/2014/install-oracle-java-8-on-fedora-centos-rhel/<br>
