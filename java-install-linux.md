@@ -4,16 +4,15 @@
 
 **Versão: 1.7**
 
-[(64 ou32) bits (Requer login)](http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html#jdk-7u80-oth-JPR) <br>
+[(64 ou32) bits (Requer login) Oracle](http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html#jdk-7u80-oth-JPR) <br>
 ou <br>
-[(64 bits) (download direto)](https://www.dropbox.com/s/2cs9k4cfhag5gm0/jdk-7u80-linux-x64.tar.gz?dl=0)  <br>
+[(64 bits) (download direto) Dropbox](https://www.dropbox.com/s/2cs9k4cfhag5gm0/jdk-7u80-linux-x64.tar.gz?dl=0)  <br>
 
-[(32 bits) (download direto)](https://www.dropbox.com/s/qryvdq8uwfh8idq/jdk-7u80-linux-i586.tar.gz?dl=0) <br>
+[(32 bits) (download direto) Dropbox](https://www.dropbox.com/s/qryvdq8uwfh8idq/jdk-7u80-linux-i586.tar.gz?dl=0) <br>
 
 **Versão: 1.8**
 
-[http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html](última versão) <br>
-Clique em Accept License Agreement (Aceitar o acordo da Licença) para liberar o download.<br>
+[(última versão) Clique em Accept License Agreement (Aceitar o acordo da Licença) para liberar o download](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)<br>
   
 * Se seu sistema operacional for de 64 bits<br>
 escolha o pacote jdk-7u80-linux-x64.tar.gz<br>
