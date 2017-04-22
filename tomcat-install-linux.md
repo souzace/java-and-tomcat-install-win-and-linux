@@ -39,23 +39,23 @@ PATH=$JAVA_HOME/bin:$PATH<br>
 export PATH<br>
 CATALINA_HOME=/usr/share/apache-tomcat-5.5.36<br>
 
-case $1 in
-start)
-sh $CATALINA_HOME/bin/startup.sh
-echo "Incializado"
-;;
-stop)
-sh $CATALINA_HOME/bin/shutdown.sh
-echo "Desligado"
-;;
-restart)
-sh $CATALINA_HOME/bin/shutdown.sh
-echo "Desligado"
-sh $CATALINA_HOME/bin/startup.sh
-echo "Inicializado"
-;;
-esac
-exit 0
+case $1 in<br>
+start)<br>
+sh $CATALINA_HOME/bin/startup.sh<br>
+echo "Incializado"<br>
+;;<br>
+stop)<br>
+sh $CATALINA_HOME/bin/shutdown.sh<br>
+echo "Desligado"<br>
+;;<br>
+restart)<br>
+sh $CATALINA_HOME/bin/shutdown.sh<br>
+echo "Desligado"<br>
+sh $CATALINA_HOME/bin/startup.sh<br>
+echo "Inicializado"<br>
+;;<br>
+esac<br>
+exit 0<br>
 
 * Salve, feche o arquivo e em seguida aplique as permissões para tornar o script tomcat em um executável:
 
@@ -63,12 +63,12 @@ exit 0
 
 * Use o comando chkconfig para que o tomcat inicie no momento da inicialização do sistema operacional, usaremos níveis de prioridade para inicializar e parar o serviço, você pode ajustar conforme a necessidade:
 
-[user@host /etc/init.d]$ sudo chkconfig --add tomcat
-[user@host /etc/init.d]$ sudo --level 234 tomcat on
+[user@host /etc/init.d]$ sudo chkconfig --add tomcat<br>
+[user@host /etc/init.d]$ sudo --level 234 tomcat on<br>
 
 * Verifique:
 
-[user@host /etc/init.d]$ sudo chkconfig --list tomcat
+[user@host /etc/init.d]$ sudo chkconfig --list tomcat<br>
 tomcat          0:off   1:off   2:on    3:on    4:on    5:off   6:off
 
 3º Teste o script
