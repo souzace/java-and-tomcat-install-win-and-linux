@@ -1,26 +1,25 @@
-# Tutorial para instalação do Java JDK 1.7
+# Tutorial para instalação do Java JDK 1.7 no Linux
 
 ## 1º - Faça o download do JDK 1.7 nesse link:
 
 **Versão: 1.7**
 
-* http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html#jdk-7u80-oth-JPR (Requer login) (64 ou 32) bits
-ou
-* https://www.dropbox.com/s/2cs9k4cfhag5gm0/jdk-7u80-linux-x64.tar.gz?dl=0 (download direto) (64 bits)
+[http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html#jdk-7u80-oth-JPR](64 ou 32) bits (Requer login)<br>
+ou <br>
+[https://www.dropbox.com/s/2cs9k4cfhag5gm0/jdk-7u80-linux-x64.tar.gz?dl=0](64 bits) (download direto)  <br>
 
-* https://www.dropbox.com/s/qryvdq8uwfh8idq/jdk-7u80-linux-i586.tar.gz?dl=0 (download direto) (32 bits)
+[https://www.dropbox.com/s/qryvdq8uwfh8idq/jdk-7u80-linux-i586.tar.gz?dl=0](32 bits) (download direto) <br>
 
 **Versão: 1.8**
 
-* http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html (última versão)
-
-* Clique em Accept License Agreement (Aceitar o acordo da Licença) para liberar o download.
+[http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html](última versão) <br>
+Clique em Accept License Agreement (Aceitar o acordo da Licença) para liberar o download.<br>
   
-* Se seu sistema operacional for de 64 bits
-escolha o pacote jdk-7u80-linux-x64.tar.gz
+* Se seu sistema operacional for de 64 bits<br>
+escolha o pacote jdk-7u80-linux-x64.tar.gz<br>
 
-* caso seja 32 bits 
-escolha jdk-7u80-linux-i586.tar.gz
+* caso seja 32 bits <br>
+escolha jdk-7u80-linux-i586.tar.gz<br>
 
 ## 2º - Instalação do Java JDK
 
