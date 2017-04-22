@@ -71,10 +71,8 @@ There are 4 programs which provide 'java'.<br>
   Selection    Command<br>
 -----------------------------------------------<br>
 \*+ 1         /usr/lib/jvm/jre-1.6.0-openjdk/bin/java<br>
-\
-\   2         /usr/java/jdk1.7.0_55/jre/bin/java<br>
-\   
-\   3         /usr/java/jdk1.7.0_80/jre/bin/java<br>
+    2         /usr/java/jdk1.7.0_55/jre/bin/java<br>
+    3         /usr/java/jdk1.7.0_80/jre/bin/java<br>
 
 Enter to keep the current selection[+], or type selection number: 3<br>
 
