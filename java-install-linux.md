@@ -24,13 +24,13 @@ escolha jdk-7u80-linux-i586.tar.gz<br>
 
 Vá até a pasta aonde você baixou o pacote .tar.gz e execute os comandos abaixo:
 
-* Descompacte a pasta do binário do jdk
+* Descompacte a pasta do binário do jdk<br>
 ```[root@host /home/user/Downloads]$ tar -xvzf jdk-7u80-linux-x64.tar.gz```
 
-* Crie a pasta para a instalação do java necessário (root)
+* Crie a pasta para a instalação do java necessário (root)<br>
 ```[user@host /home/user/Downloads]$ sudo mkdir /usr/java```
 
-* Mova a pasta do java para o local da instalação
+* Mova a pasta do java para o local da instalação<br>
 ```[user@host /home/user/Downloads]$ sudo mv -v jdk1.7.0_80 /usr/java```
 
 ## 3º Configurações Globais de Ambiente
