@@ -1,4 +1,4 @@
-# Instalação Tomcat linux
+# Instalação Tomcat no linux
 
 1º Faça o Download do binário do Tomcat
 Usaremos a versão 5.5.36 como descrito no link:
@@ -69,60 +69,61 @@ exit 0<br>
 * Verifique:
 
 [user@host /etc/init.d]$ sudo chkconfig --list tomcat<br>
-tomcat          0:off   1:off   2:on    3:on    4:on    5:off   6:off
+
+* Veja se a saída é igual a essa:
+tomcat          0:off   1:off   2:on    3:on    4:on    5:off   6:off<br>
 
 3º Teste o script
 
-* Comando para inicializar o tomcat (root)
+* Comando para inicializar o tomcat (root)<br>
 [user@host /etc/init.d]$ sudo service tomcat start
 
-* Veja se a saída está parecida com essa:
-Using CATALINA_BASE:   /usr/share/apache-tomcat-5.5.36
-Using CATALINA_HOME:   /usr/share/apache-tomcat-5.5.36
-Using CATALINA_TMPDIR: /usr/share/apache-tomcat-5.5.36/temp
+* Veja se a saída está parecida com essa:<br>
+Using CATALINA_BASE:   /usr/share/apache-tomcat-5.5.36<br>
+Using CATALINA_HOME:   /usr/share/apache-tomcat-5.5.36<br>
+Using CATALINA_TMPDIR: /usr/share/apache-tomcat-5.5.36/temp<br>
+Using JRE_HOME:        /usr/java/jdk1.7.0_8<br>
+Using CLASSPATH:       /usr/share/apache-tomcat-5.5.36/bin/bootstrap.jar<br>
+Inicializado<br>
+
+* Comando para desligar o tomcat (root)<br>
+[user@host /etc/init.d]$ sudo service tomcat stop<br>
+Using CATALINA_BASE:   /usr/share/apache-tomcat-5.5.36<br>
+Using CATALINA_HOME:   /usr/share/apache-tomcat-5.5.36<br>
+Using CATALINA_TMPDIR: /usr/share/apache-tomcat-5.5.36/temp<br>
+Using JRE_HOME:        /usr/java/jdk1.7.0_8<br>
+Using CLASSPATH:       /usr/share/apache-tomcat-5.5.36/bin/bootstrap.jar<br>
+Desligado<br>
+
+* Comando para reinicializar o tomcat (root)<br>
+
+[user@host /etc/init.d]$ sudo service tomcat restart<br>
+Using CATALINA_BASE:   /usr/share/apache-tomcat-5.5.36<br>
+Using CATALINA_HOME:   /usr/share/apache-tomcat-5.5.36<br>
+Using CATALINA_TMPDIR: /usr/share/apache-tomcat-5.5.36/temp<br>
 Using JRE_HOME:        /usr/java/jdk1.7.0_8
 Using CLASSPATH:       /usr/share/apache-tomcat-5.5.36/bin/bootstrap.jar
-Inicializado
+Desligado<br>
+Using CATALINA_BASE:   /usr/share/apache-tomcat-5.5.36<br>
+Using CATALINA_HOME:   /usr/share/apache-tomcat-5.5.36<br>
+Using CATALINA_TMPDIR: /usr/share/apache-tomcat-5.5.36/temp<br>
+Using JRE_HOME:        /usr/java/jdk1.7.0_8<br>
+Using CLASSPATH:       /usr/share/apache-tomcat-5.5.36/bin/bootstrap.jar<br>
+Inicializado<br>
 
-* Comando para desligar o tomcat (root)
-[user@host /etc/init.d]$ sudo service tomcat stop
-Using CATALINA_BASE:   /usr/share/apache-tomcat-5.5.36
-Using CATALINA_HOME:   /usr/share/apache-tomcat-5.5.36
-Using CATALINA_TMPDIR: /usr/share/apache-tomcat-5.5.36/temp
-Using JRE_HOME:        /usr/java/jdk1.7.0_8
-Using CLASSPATH:       /usr/share/apache-tomcat-5.5.36/bin/bootstrap.jar
-Desligado
+4º Checando os logs e a Página de Gerenciamento do Tomcat<br>
 
-* Comando para reinicializar o tomcat (root)
+* Para acessar os logs digite o comando abaixo:<br>
+[user@host /etc/init.d]$ more /usr/share/apache-tomcat-5.5.36/logs/catalina.out<br>
 
-[user@host /etc/init.d]$ sudo service tomcat restart
-Using CATALINA_BASE:   /usr/share/apache-tomcat-5.5.36
-Using CATALINA_HOME:   /usr/share/apache-tomcat-5.5.36
-Using CATALINA_TMPDIR: /usr/share/apache-tomcat-5.5.36/temp
-Using JRE_HOME:        /usr/java/jdk1.7.0_8
-Using CLASSPATH:       /usr/share/apache-tomcat-5.5.36/bin/bootstrap.jar
-Desligado
-Using CATALINA_BASE:   /usr/share/apache-tomcat-5.5.36
-Using CATALINA_HOME:   /usr/share/apache-tomcat-5.5.36
-Using CATALINA_TMPDIR: /usr/share/apache-tomcat-5.5.36/temp
-Using JRE_HOME:        /usr/java/jdk1.7.0_8
-Using CLASSPATH:       /usr/share/apache-tomcat-5.5.36/bin/bootstrap.jar
-Inicializado
-
-4º Checando os logs e a Página de Gerenciamento do Tomcat
-
-* Para acessar os logs digite o comando abaixo:
-
-[user@host /etc/init.d]$ more /usr/share/apache-tomcat-5.5.36/logs/catalina.out
-
-* Para acessar a página de Gerenciamento do Tomcat pode ser acessado de qualquer brower instalado pelo endereço:
+* Para acessar a página de Gerenciamento do Tomcat pode ser acessado de qualquer brower instalado pelo endereço:<br>
 http://localhost:8080/
 
 
 
-Fonte:
+Fonte:<br>
 
-David Ghedini:
+David Ghedini:<br>
 http://www.davidghedini.com/pg/entry/install_tomcat_7_on_centos
 
 
