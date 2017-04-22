@@ -4,11 +4,11 @@
 
 **Versão: 1.7**
 
-[http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html#jdk-7u80-oth-JPR](64 ou 32) bits (Requer login)<br>
+[(64 ou32) bits (Requer login)](http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html#jdk-7u80-oth-JPR) <br>
 ou <br>
-[https://www.dropbox.com/s/2cs9k4cfhag5gm0/jdk-7u80-linux-x64.tar.gz?dl=0](64 bits) (download direto)  <br>
+[(64 bits) (download direto)](https://www.dropbox.com/s/2cs9k4cfhag5gm0/jdk-7u80-linux-x64.tar.gz?dl=0)  <br>
 
-[https://www.dropbox.com/s/qryvdq8uwfh8idq/jdk-7u80-linux-i586.tar.gz?dl=0](32 bits) (download direto) <br>
+[(32 bits) (download direto)](https://www.dropbox.com/s/qryvdq8uwfh8idq/jdk-7u80-linux-i586.tar.gz?dl=0) <br>
 
 **Versão: 1.8**
 
