@@ -36,6 +36,11 @@ Vá até a pasta aonde você baixou o pacote .tar.gz e execute os comandos abaix
 ## 3º Configurações Globais de Ambiente
 
 **-- obrigatório --**
+* Crie os arquivos de script (caso não haja)
+
+```[user@host /home/user/Downloads]$ sudo touch /usr/bin/java```
+```[user@host /home/user/Downloads]$ sudo touch /usr/bin/javac```
+```[user@host /home/user/Downloads]$ sudo touch /usr/bin/jar```
 
 * ### java
 ```[user@host /home/user/Downloads]$ sudo alternatives --install /usr/bin/java java /usr/java/jdk1.7.0_80/jre/bin/java 200000```
