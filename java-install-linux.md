@@ -4,7 +4,7 @@
 
 **Versão: 1.7**
 
-[(64 ou32) bits (Requer login) Oracle](http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html#jdk-7u80-oth-JPR) <br>
+[(64 ou 32) bits (Requer login) Oracle](http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html#jdk-7u80-oth-JPR) <br>
 ou <br>
 [(64 bits) (download direto) Dropbox](https://www.dropbox.com/s/2cs9k4cfhag5gm0/jdk-7u80-linux-x64.tar.gz?dl=0)  <br>
 
