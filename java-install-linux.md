@@ -41,6 +41,8 @@ Vá até a pasta aonde você baixou o pacote .tar.gz e execute os comandos abaix
 ```[user@host /home/user/Downloads]$ sudo touch /usr/bin/java```<br>
 ```[user@host /home/user/Downloads]$ sudo touch /usr/bin/javac```<br>
 ```[user@host /home/user/Downloads]$ sudo touch /usr/bin/jar```<br>
+----opcional-----<br>
+```[user@host /home/user/Downloads]$ sudo touch /usr/bin/javaws```<br>
 
 * ### java
 ```[user@host /home/user/Downloads]$ sudo alternatives --install /usr/bin/java java /usr/java/jdk1.7.0_80/jre/bin/java 200000```
