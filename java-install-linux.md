@@ -4,7 +4,7 @@
 
 **Versão: 1.7**
 
-[(64 ou 32) bits (Requer login) Oracle](http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html#jdk-7u80-oth-JPR) <br>
+[(64 ou 32 bits Requer login) Oracle](http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html#jdk-7u80-oth-JPR) <br>
 ou <br>
 [(64 bits) (download direto) Dropbox](https://www.dropbox.com/s/2cs9k4cfhag5gm0/jdk-7u80-linux-x64.tar.gz?dl=0)  <br>
 
@@ -48,16 +48,16 @@ Vá até a pasta aonde você baixou o pacote .tar.gz e execute os comandos abaix
 
 
 * ### javac
-```[user@host /home/user/Downloads]$ sudo alternatives --install /usr/bin/javac javac /usr/java/jdk1.7.0_80/jre/bin/javac 200000```
+```[user@host /home/user/Downloads]$ sudo alternatives --install /usr/bin/javac javac /usr/java/jdk1.7.0_80/bin/javac 200000```
 
 
 * ### jar
-```[user@host /home/user/Downloads]$ sudo alternatives --install /usr/bin/jar jar /usr/java/jdk1.7.0_80/jre/bin/jar 200000```
+```[user@host /home/user/Downloads]$ sudo alternatives --install /usr/bin/jar jar /usr/java/jdk1.7.0_80/bin/jar 200000```
 
 -- opcional --
 
 * ### javaws
-```[user@host /home/user/Downloads]$ sudo alternatives --install /usr/bin/javaws javaws /usr/java/jdk1.7.0_80/jre/bin/javaws 200000```
+```[user@host /home/user/Downloads]$ sudo alternatives --install /usr/bin/javaws javaws /usr/java/jdk1.7.0_80/bin/javaws 200000```
 
 * ### Plugin Browser (Mozilla Firefox) 32-bits
 ```[user@host /home/user/Downloads]$ sudo alternatives --install /usr/lib/mozilla/plugins/libjavaplugin.so libjavaplugin.so /usr/java/jdk1.7.0_80/jre/lib/i386/libnpjp2.so 200000```
