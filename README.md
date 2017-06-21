@@ -1,4 +1,4 @@
-# bs-java-servlets-jsp-pojo
+# java-servlets-jsp-pojo
 
 Dúvidas, discussões sobre Servlets, JSP e POJO
 
