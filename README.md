@@ -1,3 +1,7 @@
 # bs-java-servlets-jsp-pojo
 
-Dúvidas, discussões sobre as aulas de Servlets, JSP e POJO
+Dúvidas, discussões sobre Servlets, JSP e POJO
+
+English
+Questions, discussions about Servlets, JSP and POJO
+
