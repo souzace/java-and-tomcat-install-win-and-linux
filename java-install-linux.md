@@ -108,7 +108,7 @@ Enter to keep the current selection[+], or type selection number: 3<br>
 
 ```[user@host /home/user/Downloads]$ JAVA_HOME=/usr/java/jdk1.7.0_80```<br>
 ```[user@host /home/user/Downloads]$ export JAVA_HOME```<br>
-```[user@host /home/user/Downloads]$ PATH=$JAVA_HOME=/bin:$PATH```<br>
+```[user@host /home/user/Downloads]$ PATH=$JAVA_HOME/bin:$PATH```<br>
 ```[user@host /home/user/Downloads]$ export PATH```<br>
 
 * Caso você deseje que a configuração carregue para o usuário sempre que iniciar o sistema vá para a pasta home do usuário
